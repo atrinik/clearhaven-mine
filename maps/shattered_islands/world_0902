@@ -2,7 +2,7 @@ arch map
 name Clearhaven
 msg
 Created:  2009-09-10 Alex Tokar
-Modified: 2010-07-08 Kiana
+Modified: 2010-07-11 Kiana
 endmsg
 width 24
 height 24
@@ -985,10 +985,11 @@ y 23
 end
 arch well_stone
 msg
-You climb down the well but soon you get wet feet. You have no other option but to climb back up.
+You slowly climb down the well and find out that it actually leads into a disused mine.
 endmsg
-hp 6
-sp 23
+slaying eld_woods_island/clearhaven/mine/mine_entrance
+hp 1
+sp 1
 x 6
 y 23
 end
